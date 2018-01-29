@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    background-color: #D4FDE4;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 50px;
+    margin: 0.3em;
+    text-align: center;
+    padding-bottom: 1%;
+    border: 1px dotted rgb(117, 119, 119);
+    border-radius: 10px;
+    background-color: rgb(117, 119, 119);
+    color:#D4FDE4;
+
+}
+
+h2 {
+    margin: 0 0.5em 0.6em;
+    font-size: 20px;
+}
+
+table,
+tr,
+td {
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+td {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  font-size: 13px;
+  background-color: white;
+}
+
+input[type=number] {
+    width: 4em;
+}
+.container {
+  padding: 5%;
+  width: 20%;
+  height: 80%;
+  float: left;
+  text-align: center;
+  min-width: 10%;
+}
+.canvas {
+  padding-left: 5%;
+  padding-top: 4.5%;
+  text-aling: center;
+  margin: 0 10em 0.6em;
+  }

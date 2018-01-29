@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Oana's Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="project">
+    <h1>Canvas Pixel Art</h1>
+</div>
+
+
+<div class="container">
+    <h2>Choose Grid Size</h2>
+    <form id="sizePicker">
+        Height:
+        <input type="number" id="rows" name="height" min="1" value="10">
+        <br>
+        <br>
+        Width:
+        <input type="number" id="columns" name="width" min="1" value="10">
+        <br>
+        <br>
+        <input type="submit" id="createBtn" value= "Create">
+        <input type="reset" id="resetBtn" value="Reset">
+    </form>
+<br>
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+</div>
+
+<div class="canvas">
+    <h2 >Design Canvas</h2>
+    <table id="pixelCanvas"></table>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="designs.js"></script>
+  </div>
+</body>
+</html>
