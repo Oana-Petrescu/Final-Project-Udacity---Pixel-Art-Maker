@@ -4,12 +4,14 @@
     <ul style="list-style-type:disc">
         <li> Choose Height and Width value </li>
         <li> Click Create to display your custom size blank canvas or to remove drawing </li>
-        <li> Pick a color </li>
+        <li> Pick a color from the pane </li>
         <li> Click inside a cell to color it or hold click to color multiple cells </li>
         <li> Double-click inside a cell to remove the color </li>
         <li> Click Reset to recreate the table to the original 10 x 10 size </li>
     </ul>
   
-  <p font-weight: "bold"> Enjoy! </p>
+  <p> 
+        <strong> Enjoy! </strong 
+  </p>
    
 
