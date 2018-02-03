@@ -10,8 +10,8 @@ var mouseDown = false;
 function makeGrid(rows,cols) {
 	for (var i = 0; i < rows; i++) {
 		var tablerow = table.append('<tr></tr>');
-		 for (var j = 0; j < cols; j++) {
-			tablerow.children().last().append('<td></td>');
+			for (var j = 0; j < cols; j++) {
+				tablerow.children().last().append('<td></td>');
 		}
 	}
 }
@@ -59,8 +59,8 @@ table.on('mouseup','td', function() {
 
 table.on('mousemove','td', function() {
 	if(mouseDown === true) {
-		var color = $('#colorPicker').val();
-	  $(this).css('background', color)
+	      var color = $('#colorPicker').val();
+	      $(this).css('background', color)
 	}
 
 });
