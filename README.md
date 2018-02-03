@@ -2,7 +2,7 @@
 
   <p> This project allows you create a custom size grid that you can color, erase or reset to the original size </p>
     <ul style="list-style-type:disc">
-        <li> Choose Height and Width value <li>
+        <li> Choose Height and Width value </li>
         <li> Click Create to display your custom size blank canvas or to remove drawing </li>
         <li> Pick a color </li>
         <li> Click inside a cell to color it or hold click to color multiple cells </li>
