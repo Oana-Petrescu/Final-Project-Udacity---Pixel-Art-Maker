@@ -4,14 +4,11 @@
     <title>Oana's Pixel Art Maker!</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
     <link rel="stylesheet" href="styles.css">
-	
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 <body>
-  <div class="project">
-    <h1>Canvas Pixel Art</h1>
-</div>
 
+    <h1>Canvas Pixel Art</h1>
 
 <div class="container">
     <h2>Choose Grid Size</h2>
@@ -27,15 +24,20 @@
         <input type="submit" id="createBtn" value= "Create">
         <input type="reset" id="resetBtn" value="Reset">
     </form>
-<br>
-    <h2>Pick A Color</h2>
-    <input type="color" id="colorPicker">
+
+    <h2 class="choose_color">Pick A Color</h2>
+    <input type="color" id="colorPicker" value="#8B008B">
+</div>
+
+<div class="decor">
+  <img src="http://www.clker.com/cliparts/7/b/0/c/11971495461712252788valessiobrito_Coloured_Pencils.svg.med.png" alt="Coloured Pencil">
 </div>
 
 <div class="canvas">
-    <h2 >Design Canvas</h2>
+    <h2>Your pixel canvas</h2>
     <table id="pixelCanvas"></table>
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
     <script src="designs.js"></script>
   </div>
 </body>

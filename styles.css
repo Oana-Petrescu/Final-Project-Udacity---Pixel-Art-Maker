@@ -9,7 +9,7 @@ h1 {
     margin: 0.3em;
     text-align: center;
     padding-bottom: 1%;
-    border: 1px dotted rgb(117, 119, 119);
+    border: 1px solid rgb(117, 119, 119);
     border-radius: 10px;
     background-color: rgb(117, 119, 119);
     color:#D4FDE4;
@@ -19,6 +19,14 @@ h1 {
 h2 {
     margin: 0 0.5em 0.6em;
     font-size: 20px;
+}
+
+.choose_color{
+  margin-top: 0.5em;
+}
+
+#colorPicker {
+  border-radius: 3px;
 }
 
 table,
@@ -37,25 +45,49 @@ td {
   width: 20px;
   height: 20px;
   border: 1px solid rgb(0, 0, 0);
-  text-align: center;
   font-size: 13px;
   background-color: white;
 }
 
 input[type=number] {
     width: 4em;
+    border-radius: 3px;
 }
+
+#createBtn,
+#resetBtn  {
+  border-radius: 5px;
+}
+
 .container {
-  padding: 5%;
+  padding: 3%;
   width: 20%;
-  height: 80%;
-  float: left;
+  height: 50%;
   text-align: center;
   min-width: 10%;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+
 }
+.decor {
+  position:fixed;
+  padding:2%;
+  text-align:left;
+}
+
 .canvas {
-  padding-left: 5%;
-  padding-top: 4.5%;
-  text-aling: center;
-  margin: 0 10em 0.6em;
-  }
+  position:absolute;
+  height:90%;
+  width:65%;
+  top:135px;
+  left:300px;
+  padding: 2% 0.5%;
+  margin: 0 6em 6em;
+  text-align:center;
+}
+
+#pixelCanvas {
+  margin: 1em auto;
+  display:table;
+  text-align:center;
+}
