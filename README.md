@@ -10,7 +10,6 @@
         <li> Click Reset to recreate the table to the original 10 x 10 size </li>
     </ul>
   
-  <p> <strong> Enjoy!</strong>
-    </p>
+  <p font-weight: "bold"> Enjoy! </p>
    
 
