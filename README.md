@@ -1,8 +1,5 @@
-# Final-Project-Udacity---Pixel-Art-Maker
+# Final-Project-Udacity Google FNDC---Pixel-Art-Maker
 
-<h1>Final Project Udacity - Goole FNDC <h1>
-<br>
-<br> 
   <p> This project contains the below features </p>
   <ul>
    <li> A function that creates the elements of the table and appends them to the existing table tag</li>
